@@ -5,13 +5,22 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.2.5",
+    "next": "^14.2.6",
     "nextra": "2.13.4",
     "nextra-theme-docs": "2.13.4",
+    "node": "^18.17.0",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.0",
+    "eslint": "9.9.0",
+    "eslint-config-next": "14.2.5",
+    "typescript": "5.5.4"
   }
 }

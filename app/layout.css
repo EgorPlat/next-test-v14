@@ -1,0 +1,26 @@
+body {
+    display: grid;
+    grid-template-rows: 60px calc(100vh - 100px) 40px;
+    margin: 0;
+}
+header {
+    background-color: red;
+    height: 60px;
+}
+header>nav {
+    height: 100%;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+main {
+    background-color: beige;
+    height: 100%;
+    margin-bottom: 150px;
+    overflow-y: scroll;
+}
+footer {
+    background-color: green;
+    height: 40px;
+}
